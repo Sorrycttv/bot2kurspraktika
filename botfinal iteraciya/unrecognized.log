@@ -5258,3 +5258,31 @@ AttributeError: 'NLPProcessor' object has no attribute '_match_pattern_score'. D
 2025-07-25 11:15:27,515 - INFO - Update id=369310444 is handled. Duration 2577 ms by bot id=8104948276
 2025-07-25 11:16:22,228 - INFO - Polling stopped
 2025-07-25 11:16:22,475 - INFO - Polling stopped for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:05:14,045 - INFO - Initializing NLPProcessor
+2025-07-26 02:05:14,286 - INFO - Loading dictionaries from C:\Users\sad clown\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymorphy3_dicts_ru\data
+2025-07-26 02:05:14,319 - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-07-26 02:05:15,220 - INFO - SpaCy model 'ru_core_news_sm' loaded successfully
+2025-07-26 02:05:15,222 - INFO - Tables in database: [('typos',), ('unrecognized_queries',)]
+2025-07-26 02:05:15,229 - INFO - SQLite database initialized
+2025-07-26 02:05:15,593 - INFO - Start polling
+2025-07-26 02:05:15,737 - INFO - Run polling for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:06:31,096 - INFO - Polling stopped
+2025-07-26 02:06:31,358 - INFO - Polling stopped for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:06:37,681 - INFO - Initializing NLPProcessor
+2025-07-26 02:06:37,927 - INFO - Loading dictionaries from C:\Users\sad clown\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymorphy3_dicts_ru\data
+2025-07-26 02:06:37,957 - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-07-26 02:06:38,869 - INFO - SpaCy model 'ru_core_news_sm' loaded successfully
+2025-07-26 02:06:38,870 - INFO - Tables in database: [('typos',), ('unrecognized_queries',)]
+2025-07-26 02:06:38,877 - INFO - SQLite database initialized
+2025-07-26 02:06:39,246 - INFO - Start polling
+2025-07-26 02:06:39,380 - INFO - Run polling for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:09:28,696 - INFO - Initializing NLPProcessor
+2025-07-26 02:09:28,934 - INFO - Loading dictionaries from C:\Users\sad clown\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymorphy3_dicts_ru\data
+2025-07-26 02:09:28,964 - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-07-26 02:09:29,865 - INFO - SpaCy model 'ru_core_news_sm' loaded successfully
+2025-07-26 02:09:29,869 - INFO - Tables in database: [('typos',), ('unrecognized_queries',)]
+2025-07-26 02:09:29,870 - INFO - SQLite database initialized
+2025-07-26 02:09:30,234 - INFO - Start polling
+2025-07-26 02:09:30,390 - INFO - Run polling for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:09:30,601 - INFO - Update id=369310528 is handled. Duration 158 ms by bot id=8104948276
+2025-07-26 02:09:36,490 - INFO - Update id=369310529 is handled. Duration 1438 ms by bot id=8104948276

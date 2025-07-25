@@ -30439,3 +30439,278 @@ AttributeError: 'NLPProcessor' object has no attribute '_match_pattern_score'. D
 2025-07-25 11:15:27,515 - INFO - Update id=369310444 is handled. Duration 2577 ms by bot id=8104948276
 2025-07-25 11:16:22,228 - INFO - Polling stopped
 2025-07-25 11:16:22,475 - INFO - Polling stopped for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:05:14,045 - INFO - Initializing NLPProcessor
+2025-07-26 02:05:14,286 - INFO - Loading dictionaries from C:\Users\sad clown\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymorphy3_dicts_ru\data
+2025-07-26 02:05:14,319 - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-07-26 02:05:15,220 - INFO - SpaCy model 'ru_core_news_sm' loaded successfully
+2025-07-26 02:05:15,220 - DEBUG - Initializing SQLite database
+2025-07-26 02:05:15,222 - INFO - Tables in database: [('typos',), ('unrecognized_queries',)]
+2025-07-26 02:05:15,229 - INFO - SQLite database initialized
+2025-07-26 02:05:15,229 - DEBUG - Initializing typo dictionary
+2025-07-26 02:05:15,230 - DEBUG - Typo dictionary loaded from database
+2025-07-26 02:05:15,230 - DEBUG - Initializing knowledge base
+2025-07-26 02:05:15,230 - DEBUG - Knowledge base, typo dictionary, and database initialized
+2025-07-26 02:05:15,236 - DEBUG - Using proactor: IocpProactor
+2025-07-26 02:05:15,593 - INFO - Start polling
+2025-07-26 02:05:15,737 - INFO - Run polling for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:06:31,096 - INFO - Polling stopped
+2025-07-26 02:06:31,358 - INFO - Polling stopped for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:06:37,681 - INFO - Initializing NLPProcessor
+2025-07-26 02:06:37,927 - INFO - Loading dictionaries from C:\Users\sad clown\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymorphy3_dicts_ru\data
+2025-07-26 02:06:37,957 - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-07-26 02:06:38,869 - INFO - SpaCy model 'ru_core_news_sm' loaded successfully
+2025-07-26 02:06:38,869 - DEBUG - Initializing SQLite database
+2025-07-26 02:06:38,870 - INFO - Tables in database: [('typos',), ('unrecognized_queries',)]
+2025-07-26 02:06:38,877 - INFO - SQLite database initialized
+2025-07-26 02:06:38,877 - DEBUG - Initializing typo dictionary
+2025-07-26 02:06:38,878 - DEBUG - Typo dictionary loaded from database
+2025-07-26 02:06:38,878 - DEBUG - Initializing knowledge base
+2025-07-26 02:06:38,878 - DEBUG - Knowledge base, typo dictionary, and database initialized
+2025-07-26 02:06:38,884 - DEBUG - Using proactor: IocpProactor
+2025-07-26 02:06:39,246 - INFO - Start polling
+2025-07-26 02:06:39,380 - INFO - Run polling for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:09:28,696 - INFO - Initializing NLPProcessor
+2025-07-26 02:09:28,934 - INFO - Loading dictionaries from C:\Users\sad clown\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymorphy3_dicts_ru\data
+2025-07-26 02:09:28,964 - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-07-26 02:09:29,865 - INFO - SpaCy model 'ru_core_news_sm' loaded successfully
+2025-07-26 02:09:29,865 - DEBUG - Initializing SQLite database
+2025-07-26 02:09:29,869 - INFO - Tables in database: [('typos',), ('unrecognized_queries',)]
+2025-07-26 02:09:29,870 - DEBUG - Typos in database: [('прифет', 'прувит', 126), ('привет', 'привит', 86), ('привет', 'привет', 8), ('видеонаблюдение', 'видеонаблюдение', 1), ('показывать', 'покзывает', 2), ('телевизор', 'тевирп', 55), ('не работает', 'работа', 17), ('Струнино', 'струнино', 17), ('график', 'граик', 55), ('график', 'график', 100), ('Александров', 'александро', 55), ('офис', 'офис', 4), ('Карабаново', 'карабаново', 4), ('интернет', 'интернет', 26), ('не работает', 'работаент', 56), ('камера', 'камера', 82), ('поворачивается', 'пожаловаться', 56), ('каналы', 'админа', 56), ('график', 'группа', 56), ('не работает', 'работать', 78), ('телевизор', 'телевизор', 72), ('поворачивается', 'показывать', 46), ('жалоба', 'жалоба', 107), ('жалоба', 'салам', 56), ('струнино', 'срунино', 1), ('гореть', 'смотреть', 1), ('струнино', 'ipсрунино', 2), ('телефон', 'телфон', 1), ('телефон', 'телефон', 1), ('видеонаблюдение', 'виднаблюдение', 1), ('видеонаблюдение', 'видеоаблюдение', 1), ('тв', 'ipтв', 1), ('фокусироваться', 'фокусироваться', 1), ('iptv', 'iptv', 3), ('медленно', 'медленно', 1), ('переключаться', 'переключаться', 1), ('стоимость', 'стоимость', 1), ('телефония', 'телефония', 28), ('эхо', 'эхо', 28), ('телефон', 'дело', 2), ('грубость', 'бот', 1), ('помогите', 'помочь', 20), ('настройка', 'настройка', 20), ('оплата', 'лагаит', 68), (' картинка', 'канал', 68), ('прерывается', 'прерываеца', 47), ('сайт', 'сайт', 4), ('не грузится', 'грузится', 4), ('смартфон', 'сайт', 2), ('не горит', 'грузится', 2), ('зависает', 'сайт', 2), ('фокусируется', 'грузится', 2), ('грубость', 'грузится', 1), ('оплата', 'оплатить', 2), ('настроить', 'оплатить', 2), ('плохой сервис', 'сервис', 1), ('привет', 'первый', 4), ('телефон', 'ipтелефон', 4), ('настройка', 'настроить', 2), ('настроить', 'настроить', 2), ('стоимость', 'настроить', 6), ('телефония', 'ipтелефон', 5), ('контакты', 'вконтакте', 6), ('услуга', 'услуга', 134), ('контакты', 'контактный', 67), ('адрес', 'адрес', 67), ('александров', 'александр', 68), ('интернет', 'интернетик', 150), ('стоимость', 'стоить', 77), ('работы', 'ботик', 76)]
+2025-07-26 02:09:29,870 - INFO - SQLite database initialized
+2025-07-26 02:09:29,870 - DEBUG - Initializing typo dictionary
+2025-07-26 02:09:29,871 - DEBUG - Typo dictionary loaded from database
+2025-07-26 02:09:29,871 - DEBUG - Initializing knowledge base
+2025-07-26 02:09:29,871 - DEBUG - Knowledge base, typo dictionary, and database initialized
+2025-07-26 02:09:29,876 - DEBUG - Using proactor: IocpProactor
+2025-07-26 02:09:30,234 - INFO - Start polling
+2025-07-26 02:09:30,390 - INFO - Run polling for bot @teksorrybot id=8104948276 - 'BOTteksorry'
+2025-07-26 02:09:30,601 - INFO - Update id=369310528 is handled. Duration 158 ms by bot id=8104948276
+2025-07-26 02:09:35,073 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,084 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,084 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,108 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,113 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,113 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,128 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,132 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,132 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,148 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,152 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,152 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,176 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,180 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,180 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,203 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,207 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,207 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,230 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,234 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,234 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,253 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,257 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,257 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,274 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,278 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,278 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,296 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,300 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,300 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,318 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,323 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,323 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,341 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,346 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,346 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,361 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,365 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,365 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,380 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,384 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,384 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,398 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,402 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,402 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,417 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,421 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,421 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,435 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,439 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,439 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,453 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,457 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,457 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,473 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,476 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,477 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,491 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,495 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,496 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,510 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,514 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,514 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,529 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,533 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,533 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,544 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,548 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,548 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,552 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,556 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,556 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,560 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,564 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,564 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,572 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,576 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,576 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,584 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,588 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,588 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,606 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,610 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,610 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,627 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,631 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,631 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,649 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,653 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,653 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,670 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,674 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,674 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,692 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,696 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,696 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,706 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,710 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,711 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,721 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,726 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,726 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,736 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,740 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,741 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,751 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,755 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,755 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,766 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,770 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,770 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,781 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,785 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,785 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,796 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,800 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,800 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,811 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,816 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,816 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,828 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,832 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,832 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,843 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,847 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,847 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,866 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,870 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,870 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,889 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,893 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,893 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,900 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,904 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,904 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,911 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,915 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,915 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,923 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,927 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,927 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,934 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,938 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,939 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,971 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,976 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,976 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:35,983 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:35,987 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:35,988 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,003 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,007 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,007 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,020 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,024 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,024 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,042 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,047 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,047 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,055 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,059 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,059 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,067 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,071 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,072 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,079 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,083 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,083 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,095 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,099 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,099 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,120 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,124 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,124 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,148 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,152 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,152 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,174 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,178 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,178 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,186 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,190 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,191 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,198 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,202 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,203 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,211 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,215 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,215 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,223 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,227 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,227 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,235 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,239 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,239 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,248 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,252 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,252 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,260 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,264 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,264 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,272 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,276 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,276 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,289 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,293 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,293 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,302 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,306 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,306 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,313 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,317 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,317 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,331 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,340 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,340 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,361 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,365 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,365 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,384 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,388 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,388 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,407 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,411 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,411 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,411 - DEBUG - Preprocessing text: Привет ботик
+2025-07-26 02:09:36,415 - DEBUG - Corrected 'привет' to 'привет' using typo dictionary
+2025-07-26 02:09:36,415 - DEBUG - Corrected 'ботик' to 'работы' using typo dictionary
+2025-07-26 02:09:36,490 - INFO - Update id=369310529 is handled. Duration 1438 ms by bot id=8104948276

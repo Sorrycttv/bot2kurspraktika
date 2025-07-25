@@ -1,3 +1,5 @@
+import sys
+import io
 import re
 import random
 import logging
@@ -8,26 +10,34 @@ from difflib import get_close_matches
 import sqlite3
 from pathlib import Path
 
-# Настройка логирования
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler = RotatingFileHandler('bot.log', maxBytes=5*1024*1024, backupCount=5)
-file_handler.setLevel(logging.DEBUG)
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
+# Устанавливка стандартные потоки ввода-вывода в UTF-8
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-# Логирование нераспознанных запросов
-unrecognized_handler = RotatingFileHandler('unrecognized.log', maxBytes=5*1024*1024, backupCount=5)
-unrecognized_handler.setLevel(logging.INFO)
-unrecognized_handler.setFormatter(formatter)
-logger.addHandler(unrecognized_handler)
+# Настройка логирования с UTF-8
+def setup_logging():
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+    
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
+    # Обработчики с явным указанием кодировки UTF-8
+    handlers = [
+        RotatingFileHandler('bot.log', maxBytes=5*1024*1024, backupCount=5, encoding='utf-8'),
+        RotatingFileHandler('unrecognized.log', maxBytes=5*1024*1024, backupCount=5, encoding='utf-8'),
+        logging.StreamHandler(sys.stdout)  # Используем sys.stdout с UTF-8
+    ]
+    
+    handlers[0].setLevel(logging.DEBUG)
+    handlers[1].setLevel(logging.INFO)
+    handlers[2].setLevel(logging.INFO)
+    
+    for handler in handlers:
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
 
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)
-console_handler.setFormatter(formatter)
-logger.addHandler(console_handler)
-
+setup_logging()
 
 class NLPProcessor:
     def __init__(self):
@@ -37,16 +47,18 @@ class NLPProcessor:
             if not spacy.util.is_package("ru_core_news_sm"):
                 logging.error("Model 'ru_core_news_sm' not found. Please run 'python -m spacy download ru_core_news_sm'")
                 raise ImportError("Model 'ru_core_news_sm' not found")
+                
             self.nlp = spacy.load("ru_core_news_sm")
             logging.info("SpaCy model 'ru_core_news_sm' loaded successfully")
+            
             self._init_db()
             self._init_typo_dictionary()
             self._init_knowledge_base()
+            
             logging.debug("Knowledge base, typo dictionary, and database initialized")
         except Exception as e:
             logging.error(f"Initialization error: {e}", exc_info=True)
             raise
-
     def _init_db(self):
         #Инициализация базы данных для хранения новых слов и ошибок
         logging.debug("Initializing SQLite database")
