@@ -10,9 +10,9 @@ conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
 
 def initialize_database():
-    """
-    Инициализация базы данных: создание таблиц, если они отсутствуют.
-    """
+    
+    #Инициализация базы данных: создание таблиц, если они отсутствуют.
+    
     conn = None
     try:
         conn = sqlite3.connect(DB_PATH)
@@ -78,9 +78,9 @@ def initialize_database():
             conn.close()
 
 def id_authorized(user_id: int) -> bool:
-    """
-    Проверяет, авторизован ли пользователь по айди.
-    """
+    
+    #Проверяет, авторизован ли пользователь по айди.
+    
     conn = None
     try:
         conn = sqlite3.connect(DB_PATH)
@@ -99,9 +99,8 @@ def id_authorized(user_id: int) -> bool:
             conn.close()
 
 def user_authorized(username: str) -> bool:
-    """
-    Проверяет, авторизован ли пользователь по юзернейм.
-    """
+    
+    #Проверяет, авторизован ли пользователь по юзернейм.
     conn = None
     try:
         conn = sqlite3.connect(DB_PATH)
@@ -121,9 +120,9 @@ def user_authorized(username: str) -> bool:
 
 
 def admin_authorized(user_id: int) -> bool:
-    """
-    Проверяет, авторизован ли пользователь и является ли он администратором.
-    """
+    
+    #Проверяет, авторизован ли пользователь и является ли он администратором.
+    
     conn = None
     try:
         conn = sqlite3.connect(DB_PATH)
@@ -149,9 +148,9 @@ def admin_authorized(user_id: int) -> bool:
             conn.close()
 
 def check_tables():
-    """
-    Проверяет, существуют ли таблицы в базе данных.
-    """
+    
+    #Проверяет, существуют ли таблицы в базе данных.
+    
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
     tables = cursor.fetchall()
     print(f"Таблицы в базе данных: {tables}")
