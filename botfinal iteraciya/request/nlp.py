@@ -48,7 +48,7 @@ class NLPProcessor:
             raise
 
     def _init_db(self):
-        """Инициализация базы данных для хранения новых слов и ошибок"""
+        #Инициализация базы данных для хранения новых слов и ошибок
         logging.debug("Initializing SQLite database")
         try:
             self.db_path = Path("typo_database.db")
@@ -82,7 +82,7 @@ class NLPProcessor:
             logging.error(f"Database initialization error: {e}", exc_info=True)
 
     def _add_typo_to_db(self, correct_word, typo):
-        """Добавление нового ошибочного написания в базу данных"""
+        #Добавление нового ошибочного написания в базу данных
         try:
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
@@ -97,7 +97,7 @@ class NLPProcessor:
             logging.error(f"Error adding typo to database: {e}", exc_info=True)
 
     def _add_unrecognized_query_to_db(self, query):
-        """Добавление нераспознанного запроса в базу данных"""
+        #Добавление нераспознанного запроса в базу данных#
         try:
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
@@ -112,7 +112,7 @@ class NLPProcessor:
             logging.error(f"Error adding unrecognized query to database: {e}", exc_info=True)
 
     def _init_typo_dictionary(self):
-        """Инициализация словаря частых ошибок"""
+        #Инициализация словаря частых ошибок
         logging.debug("Initializing typo dictionary")
         self.typo_dictionary = {
             "привет": ["прифет", "приветт", "приветик", "привт"],
@@ -147,7 +147,8 @@ class NLPProcessor:
             logging.error(f"Error loading typos from database: {e}", exc_info=True)
 
     def _init_knowledge_base(self):
-        """Инициализация базы знаний с регулярными выражениями и ключевыми словами"""
+        #Инициализация базы знаний с регулярными выражениями и ключевыми словами
+        #её же можно расширять по базе данных с запросами.
         logging.debug("Initializing knowledge base")
         self.knowledge_base = [
             {
@@ -565,7 +566,7 @@ class NLPProcessor:
             return []
 
     def _correct_spelling(self, token, dictionary):
-        """Исправление опечаток с использованием fuzzywuzzy и get_close_matches"""
+        #Исправление опечаток с использованием fuzzywuzzy и get_close_matches
         try:
             # Проверяем словарь частых ошибок
             for correct_word, typos in self.typo_dictionary.items():
@@ -598,7 +599,7 @@ class NLPProcessor:
             return token
 
     def _match_pattern_score(self, text, pattern, keywords):
-        """Оценивает, насколько запрос соответствует шаблону (от 0 до 1)."""
+        #Оценивает, насколько запрос соответствует шаблону (от 0 до 1).
         try:
             # Проверка по регулярному выражению
             if re.fullmatch(pattern, text, re.IGNORECASE):
