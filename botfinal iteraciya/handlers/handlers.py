@@ -123,7 +123,7 @@ class FeedbackStates(StatesGroup):
 
 async def get_admins_ids():
     
-    """Получаем список ID администраторов из базы"""
+    #Получаем список ID администраторов из базы
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
@@ -137,7 +137,7 @@ async def get_admins_ids():
         conn.close()
 
 async def is_admin(user_id: int) -> bool:
-    """Проверяем, является ли пользователь администратором"""
+    #Проверка, является ли пользователь администратором
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
@@ -193,9 +193,9 @@ async def process_feedback(message: types.Message, state: FSMContext, bot: Bot):
                 continue
         
         if success_sent:
-            await message.answer("✅ Ваше сообщение отправлено администратору!",reply_markup=kb.main_kb)
+            await message.answer("✅ Ваше сообщение отправлено администратору!",reply_markup=kb.main_kb) #возврат мэйн клавы юзеру
         else:
-            await message.answer("✅ Ваше сообщение сохранено. Администратор получит его позже.",reply_markup=kb.main_kb)
+            await message.answer("✅ Ваше сообщение сохранено. Администратор получит его позже.",reply_markup=kb.main_kb) #возврат мэйн клавы юзеру
 
     except Exception as e:
         print(f"Feedback processing error: {e}")
@@ -270,6 +270,7 @@ async def admin_reply(message: types.Message, bot: Bot):
         if 'conn' in locals():
             conn.close()
 
+# команда /feedback_list  (в будущем доработать) для получения фидбек сообщений от юзеров
 @router.message(Command("feedback_list"))
 async def list_feedback(message: types.Message):
     processed_messages[message.message_id] = True
@@ -351,14 +352,15 @@ async def show_tariffs(message: types.Message):
         else:
             await message.answer(formatted_message) # Отправляем сообщение  reply_markup=kb.change_routers_kb выводклавы редактирования роутеры
 
-
+# Назад возвращает мейн клаву
 @router.message(F.text == 'Назад')
 async def main_menu(message : Message):
     processed_messages[message.message_id] = True
     await message.answer('Возвращаю вас в главное меню:',reply_markup=kb.main_kb)
 
 
-#FSM начало роутерс
+
+#FSM начало роутерс добавление роутера
 
 @router.message(F.text == 'Добавление роутера')
 async def add_router1(message: Message, state: FSMContext):
@@ -654,11 +656,11 @@ async def delete_router_start(message: Message, state: FSMContext):
     if not admin_authorized(message.from_user.id):
         await message.answer("❌ Эта команда только для администраторов")
         return
-    # Показываем все тарифы для наглядности
+    # Показываем все роутеры для наглядности
     processed_messages[message.message_id] = True
     routers= get_all_routers()
     if not routers:
-        await message.answer("Нет доступных роутеров для удаления")
+        await message.answer("Нет доступных роутеров для удаления") #в случае если таблица с роутерами пустая выдаст что роутеров нет
         return
     
     for router in routers:
